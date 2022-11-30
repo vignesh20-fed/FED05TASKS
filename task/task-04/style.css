@@ -56,7 +56,7 @@
 }	
 
 .justify-content-start{
-	justify-content:flex-start !important;
+	justify-content:flex-star/t !important;
 }
 .justify-content-end{
 	justify-content:flex-end !important;
@@ -128,13 +128,17 @@
 /*------------whychoose------*/
 .whychoosesect{
 	background-color:white;
+	position:relative;
+	top:-68px;
 	
 }
 .why-choose{
 	background-color:#39312f;
+	margin-bottom:-50px;
 	height:400px;
 	position:relative;
-	bottom:60px;
+	bottom:30px;
+	
 
 }
 .chooseitem{
@@ -145,7 +149,7 @@
 /*----------aboutsection---------*/
 .abt-section{
 	background-color:#ff5821;
-	padding:80px 0;
+	padding:90px 0;
 }
 .abt-img{
 	background-color:#39312f;
@@ -171,24 +175,29 @@
 }
 .sectiontitle{
 	background-color:#39312f;
-	height:60px;
+	height:80px;
 }
 .serviceitem{
 	background-color:#39312f;
 	height:250px;
-	margin:10px;
+	margin-top:30px;
 }
 /*----------protofile--------*/
 .protofilecessect{
 	background-color:#39312f;
 	padding:80px 0;
-	
 	}
 .protofile{
 	background-color:#ff5821;
-	height:300px;
-	margin:10px;
-	
+    height: 350px;
+    margin-bottom: 60px;
+    padding: 20px;
+    padding-top: 175px;
+}
+
+.protofileitem{
+    background-color: #000;
+    height:150px;
 }
 /*------------team section---------*/
 .teamsect{
@@ -197,21 +206,21 @@
 }
 .teamitem{
 	background-color:#39312f;
-	height:500px;
+	height:200px;
 }
 /*---------pricing----------*/
 .pricingsect{
-	background-color:#ff5821;
+	background-color:#39312f;
 	padding:80px 0;
 }
 .pricingtitle{
-	background-color:#39312f;
-	height:60px;
+	background-color:#ff5821;
+	height:90px;
 }
 .pricingitem{
-	background-color:#39312f;
+	background-color:#ff5821;
 	height:250px;
-	margin:10px;
+	margin-top:30px;
 }
 /*---------blog------------*/
 .blogsect{
@@ -220,12 +229,12 @@
 }
 .blogtitle{
 	background-color:#39312f;
-	height:50px;
+	height:90px;
 	}
 .blogitem{
 	background-color:#39312f;
 	height:200px;
-	margin:10px;	
+	margin-top:30px;	
 }
 /*----------buy-----------*/
 .buysection{
@@ -234,17 +243,17 @@
 }
 .buytitle{
 	background-color:#39312f;
-	height:50px;
+	height:90px;
 	}
 .buyitem{
 	background-color:#39312f;
 	height:400px;
-	margin-top:10px;
+	margin-top:30px;
 }
 /*----------faq-----------*/
 .faqsection{
 	background-color:#ff5821;
-	padding:50px 0;
+	padding:30px 0;
 }
 .faqcontent{
 	background-color:#39312f;
@@ -284,9 +293,15 @@
 }
 .subscontent{
 	background-color:#39312f;
-	height:50px;
-	margin:10px;
+	height:70px;
+	
 }
+.subscontentitem{
+	background-color:#39312f;
+	height:40px;
+	margin-top:50px;
+}
+
 /*---------------author-----------*/
 .footsect{
 	

@@ -7,13 +7,13 @@
 *{
 margin:0;
 padding:0;
-border-size:border-box;
+border-sizing:border-box;
 font-family:sans-serif;
 }
 
 body{
 background-image:url("images/24.jpg");
-background-repeat:repeat;
+background-repeat:no-repeat;
 background-size:cover;
 }
 
@@ -37,22 +37,29 @@ text-align:center;
 
 .flexitem{
     width:100%;
-	justify-content:space-between;
     display:flex;	
-	margin-top:50px;
+	margin-top:60px;
 	flex-wrap:wrap;
+	justify-content:space-between;
 	
 }
-
+.a{
+   text-decoration:underline;
+   text-decoration:none;
+   color:white;
+}
+ 
 
 .task1{
     box-shadow:0px 0px 50px white ;
 	}
 
-.t11{
-    color:white;;
+ .t11{
+    color:white;
 	font-size:25px;
 	background-color:blue;
+    text-decoration:underline;
+	text-decoration:none;
 	}
 .task2{
     box-shadow:0px 0px 50px white;	
@@ -66,6 +73,7 @@ text-align:center;
 .task3{
     box-shadow:0px 0px 50px white;
 	
+	
 }
 .t33{
     color:white;
@@ -74,14 +82,13 @@ text-align:center;
 }
 .task4{
     box-shadow:0px 0px 50px red;
-	margin-top:40px;
-	
 }
 .t44{
     color:white;
 	font-size:25px;
 	background-color:blue;
 }
+
 
 
 </style>
@@ -100,24 +107,34 @@ text-align:center;
 <div class="flexitem">
       
       <div class="task1">
-      <a href="task/task-01/index.html" target="blank"><img src="images/mpas.jpg"></a>
-      <p class="t11">TASK-01</p>
+      <img src="images/mpas.jpg">
+      <div class="t11">	  
+      <a href="task/task-01/index.html" target="blank" class="a">TASK-01</a>
+       </div>
 	  </div>
 	  
 	  <div class="task2">
-      <a href="task/task-02/index.html" target="blank"><img src="images/mpas.jpg"></a>
-      <p class="t22">TASK-02</p>
+     <img src="images/mpas.jpg">
+      <div class="t11">
+	   <a href="task/task-02/index.html" target="blank" class="a">TASK-02</a>
+	  </div>
       </div>
 	  
 	  <div class="task3">
-      <a href="task/task-03/index.html" target="blank"><img src="images/mpas.jpg"></a>
-      <p class="t33">TASK-03</p>
+      <img src="images/mpas.jpg">
+      <div class="t11">
+	  <a href="task/task-03/index.html" target="blank" class="a">TASK-03</a>
+	  </div>
 	  </div>
 	  
 	  <div class="task4">
-      <a href="task/task-04/index.html" target="blank"><img src="images/mpas.jpg"></a>
-      <p class="t44">TASK-04</p>
+     <img src="images/mpas.jpg">
+      <div class="t11">
+	   <a href="task/task-04/index.html" target="blank" class="a">TASK-04</a>
 	  </div>
+	  </div>
+	  
+	 
 </div>
 
 
